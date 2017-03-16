@@ -1,9 +1,8 @@
 function setup(){
-    createCanvas(displaywidth,displayheight);
-    background(50);
-    
+    createCanvas(600,400);
 }
 function draw(){
+    background(50);
     //background changes when clicked
     if(mouseIsPressed){
         background(255,182,0);
@@ -11,13 +10,13 @@ function draw(){
     //shape features
     stroke(255);
     strokeWeight(6);
-    nofill();
+    noFill();
     
     if(mouseY<150){
-        fill(255,0,0)
+        fill(249, 150, 29);
     }
     else{
-        fill(255,182,0);
+        fill(15, 154, 224);
     }
     
     //the moving shape
